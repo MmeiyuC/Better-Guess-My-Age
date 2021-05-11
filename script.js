@@ -6,7 +6,7 @@ document.getElementById('start').addEventListener('click', guessmyage)
 
 function guessmyage () {
   // Set while loop
-  while (guess != age) {
+  while (guess !== age) {
     guess = prompt('Guess a number between 10 and 20')
   }
 }
